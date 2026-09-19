@@ -3,21 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>Kokoreççi</title>
-<script>
-/* App Store'a aninda yonlendirir. Rakiplerin kullandigi duz yonlendirmenin
-   ayni isi; GitHub Pages statik oldugu icin sunucu 302'si yerine JS.
-
-   ?k=etiket verilirse Apple'in ct= kampanya etiketine gecer, App Store
-   Connect'te o etiketten kac indirme geldigi gorunur. Verilmezse link
-   tamamen sade kalir. */
-var id = "6811690345";
-var k = (new URLSearchParams(location.search).get("k") || "")
-          .replace(/[^A-Za-z0-9_.-]/g, "").slice(0, 40);
-var url = "https://apps.apple.com/tr/app/id" + id + (k ? "?mt=8&ct=" + k : "");
-location.replace(url);
-</script>
-<noscript><meta http-equiv="refresh" content="0;url=https://apps.apple.com/tr/app/id6811690345"></noscript>
-<style>body{margin:0;background:#1A2133;color:#E8DCC0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;display:flex;align-items:center;justify-content:center;height:100vh}a{color:#F2B233}</style>
+<meta http-equiv="refresh" content="0;url=https://apps.apple.com/tr/app/id6811690345">
+<script>location.replace("https://apps.apple.com/tr/app/id6811690345");</script>
 </head>
-<body><a href="https://apps.apple.com/tr/app/id6811690345">App Store'da aç</a></body>
+<body><a href="https://apps.apple.com/tr/app/id6811690345">App Store</a></body>
 </html>
